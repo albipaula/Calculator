@@ -1,0 +1,27 @@
+.button-container { 
+
+
+   width: 100%;
+   height: auto;
+   padding: 30px;
+   border-radius: 20px;
+   margin: 2px;
+   text-align: center;
+   font-size: 32px;
+   font-weight: 500;
+   cursor: pointer;
+   background: #5e9ea08a;
+   
+}
+
+.button-container:hover { 
+    background: rgba(233, 233, 93, 0.521);
+}
+
+.operator { font-weight: 700;}
+.operator:hover { 
+background:rgb(236, 198, 128) ;
+transition: 2ms ease-in;
+
+
+}

@@ -1,0 +1,21 @@
+.screen { 
+
+    background: rgba(247, 247, 239, 0.356); border: 2px dotted beige;
+    border: 5px double pink;
+    border-radius: 50px;
+    width: 90%;height: 125px; 
+    margin-bottom: 30px;
+    margin-left: 15px;
+    font-size: 40px;
+    font-style: italic;
+    font-weight:600;
+    color: black;
+    letter-spacing: 5px;
+    text-align: right;
+    align-self: center;
+    padding-top: 80px;
+
+
+}
+
+
