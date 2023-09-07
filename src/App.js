@@ -15,32 +15,30 @@ function App() {
 
   const agregarInput = val => {
     setInput(input + val);
+  
   };
 
   const resultCalculator = ()=> {
 
     if (input) {
     setInput(evaluate(input));
-    } else { alert('you need a value')}
+    } 
+    
+    else { alert('you need a value')}
 
   }
 
   return (
     <div className='App'>
-    <div className='logo-container'>
-      <img 
-      src={Paulaalbilogo}
-      className='pawalbi-logo'
-      alt='logo Paula Albi'/>
-    </div>
+   
    
     <div className='calculator-container'>
-    <Screen input={input} />
-    <div className='row'>
-      <Button  manejarClic={agregarInput}>1</Button>
-      <Button  manejarClic={agregarInput}>2</Button>
-      <Button  manejarClic={agregarInput}>3</Button>
-      <Button  manejarClic={agregarInput}>+</Button>
+        <Screen input={input} />
+      <div className='row'>
+        <Button  manejarClic={agregarInput}>1</Button>
+        <Button  manejarClic={agregarInput}>2</Button>
+        <Button  manejarClic={agregarInput}>3</Button>
+        <Button  manejarClic={agregarInput}>+</Button>
   
       </div> 
     <div className='row'>

@@ -1,8 +1,8 @@
 .rowClear { 
 
-background: rgb(176, 106, 246);
+background: #648DA4;
 border-radius: 20px;
-height: 60px;
+height: 180px;
 width: 90%;
 display: flex;
 justify-content: center;
@@ -10,7 +10,7 @@ align-items: center;
 margin-left: 25px;
 color: white;
 font-weight: 700;
-font-size: 18px;
+font-size: 28px;
 text-transform: uppercase;
 cursor: pointer;
 
