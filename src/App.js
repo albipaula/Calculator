@@ -2,7 +2,6 @@ import './App.css';
 import './css/button.css'
 import './css/screen.css'
 import './css/clearButton.css'
-import Paulaalbilogo from './images/logo-paw-albi.svg' 
 import Button from './components/button'
 import Screen from './components/screen'
 import Clear from './components/clearButton'
